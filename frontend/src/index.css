@@ -2,6 +2,9 @@ body {
   padding: 0;
   margin: 0;
   font-family: 'Helvetica', sans-serif;
+  background-color: #fafafa;
+  color: #333;
+  font-size: 16px;
 }
 
 * {
@@ -11,8 +14,88 @@ body {
 .container {
   max-width: 1200px;
   margin: 0 auto;
+  padding: 0 16px;
 }
 
 header {
   background-color: #fff;
+  padding: 20px 0;
+}
+
+header h1 {
+  margin: 0;
+}
+
+header h1 a {
+  text-decoration: none;
+}
+
+.workouts {
+  padding: 16px 0;
+  width: 100%;
+  max-width: 60%;
+}
+
+.workout-details {
+  padding: 16px;
+  background-color: #fff;
+  margin-bottom: 16px;
+  box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075) !important;
+  border-radius: 0.5rem;
+  border: 1px solid rgba(0, 0, 0, 0.175);
+}
+
+.workout-details h3 {
+  margin: 0 0 16px;
+}
+
+.mb-4 {
+  margin-bottom: 1.5rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 6px;
+}
+
+.form-control {
+  border: 1px solid rgb(222, 226, 230);
+  background-color: #fff;
+  border-radius: .375rem;
+  line-height: 24px;
+  display: block;
+  width: 100%;
+  padding: 6px 12px;
+}
+
+
+.form-control.error {
+  border-color: red;
+}
+
+.btn {
+  background-color: #0b5ed7;
+  color: #fff;
+  border: 0 none;
+  border-radius: 6px;
+  display: inline-block;
+  padding: 6px 12px;
+  line-height: 24px;
+}
+
+.pages {
+  padding: 30px 0;
+}
+
+.row {
+  display: flex;
+}
+
+.col {
+  padding: 0 16px;
+}
+
+.workout-form {
+  width: 100%;
+  max-width: 40%;
 }
